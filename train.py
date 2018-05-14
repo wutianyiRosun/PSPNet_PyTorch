@@ -83,7 +83,7 @@ def configure_dataset_init_model(args):
         args.restore_from = './pretrained/MS_DeepLab_resnet_pretrained_COCO_init.pth'
         args.snapshot_dir = './snapshots/voc12/'          #Where to save snapshots of the model
         args.resume = './snapshots/voc12/psp_voc12_3.pth' #checkpoint log file, helping recovering training
-        #args.save_pred_every = 1000  #Save summaries and checkpoint every often
+        
 
     elif args.dataset == 'cityscapes':
         args.batch_size = 8   #Number of images sent to the network in one step, batch_size/num_GPU=2
@@ -102,7 +102,7 @@ def configure_dataset_init_model(args):
         args.restore_from = './pretrained/resnet101_pretrained_for_cityscapes.pth'
         args.snapshot_dir = './snapshots/cityscapes/'          #Where to save snapshots of the model
         args.resume = './snapshots/cityscapes/psp_cityscapes_12_3.pth' #checkpoint log file, helping recovering training
-        #args.save_pred_every = 1000  #Save summaries and checkpoint every often
+       
     else:
         print("dataset error")
 
