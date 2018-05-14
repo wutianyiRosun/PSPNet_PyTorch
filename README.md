@@ -23,7 +23,7 @@ usage: evaluate.py [-h] [--dataset DATASET] [--cuda CUDA] [--gpus GPUS]
 
 ```
 
-### testing (on test set)
+### Testing (on test set)
 ```
 usage: test.py [-h] [--dataset DATASET] [--cuda CUDA] [--gpus GPUS]
 ```
