@@ -1,5 +1,5 @@
 # PSPNet_PyTorch
-An implementation of PSPNet: Pyramid Scene Parsing Network[http://arxiv.org/abs/1612.01105], CVPR2017
+An implementation of PSPNet: Pyramid Scene Parsing Network(http://arxiv.org/abs/1612.01105), CVPR2017
 
 ### Training
 
